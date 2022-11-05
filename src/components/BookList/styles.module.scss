@@ -1,0 +1,77 @@
+@import '../../scss/variables/_colors';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-book {
+  display: grid;
+  gap: 36px;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center; 
+  margin: 45px 0; 
+}
+
+.card-book {
+  background-color: $white;
+  box-shadow: 4px 4px 10px 0 $black-rgba;
+  height: 300px;
+  padding: 28px;
+  position: relative;
+  width: 198px; 
+}
+
+.img-book {
+  height: 200px;
+  width: 142px;
+}
+
+.title-book {
+  color: $black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;  
+  line-height: 18px;
+}
+
+.author-book {
+  color: $gray-siberian;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 18px;    
+}
+
+.img-add {
+  bottom: 5px;
+  height: 32px;
+  position: absolute;
+  right: 5px;
+  width: 31px;
+}
+
+.searchBook {
+  background-color: $white;
+  border: 2px solid $gray-arctic;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: $gray-siberian;
+  font-family: Roboto;
+  font-size: 20px;
+  height: 50px;
+  line-height: 20px;
+  margin-top: 32px;
+  padding: 15px;
+  width: 646px; 
+}
+
+.inputSearch {
+  position: relative;
+}
+
+.img-search {
+  bottom: 13px;
+  position: absolute;
+  right: 15px;
+}

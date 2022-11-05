@@ -1,0 +1,14 @@
+@import '../../scss/variables/_colors';
+
+.container {
+  position: absolute;
+  right:  10px;
+  top: 25px;
+}
+
+.select {
+  background-color: $blue-light;
+  border-radius: 4px;
+  color: $white;
+  padding: 6px 8px;
+}

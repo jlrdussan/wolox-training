@@ -1,0 +1,26 @@
+@import './variables/_colors';
+
+%btn {
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 16px;
+  height: 32px;
+  line-height: 24px;
+  width: 252px;  
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $green-light;
+  color: $white;
+}
+  
+.btn-secondary {
+  @extend %btn;
+  border: solid 2px $green-light;
+  color: $green-light;
+}
+
+.btn-container {
+  margin-top: 24px;
+}

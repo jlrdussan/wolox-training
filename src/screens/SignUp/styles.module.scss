@@ -1,0 +1,21 @@
+@import '../../scss/variables/_colors';
+
+.container {
+  align-self: center;
+  background-color: $gray-light;
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 24px;
+}
+
+.bar {
+  background-color: $gray;
+  height: 2px;
+  width: 252px;
+  margin: 10px 0;
+}

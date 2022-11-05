@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "wolox-react",
+    "@wolox/eslint-config-typescript"
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "log"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

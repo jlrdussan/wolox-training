@@ -1,0 +1,115 @@
+@import '../../scss/variables/_colors';
+
+.container {
+  background-color: $gray-light;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  position: absolute;
+}
+
+.card-book {
+  align-items: center;
+  box-shadow: 4px 4px 10px 0 $black-rgba;
+  display: flex;
+  height: 416px;
+  justify-content: center;
+  width: 900px;
+}
+
+.detail-book {
+  background-color: $white;
+  display: flex;
+  gap: 52px;
+  padding: 24px;
+  width: 100%;
+}
+
+.img-book {
+  height: 368px;
+  width: 261px;
+}
+
+.title-book {
+  color: $black;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+
+.info-book {
+  width: 100%;
+}
+
+.bar {
+  background-color: $green-light;
+  height: 4px;
+  width: 100%;
+}
+
+.label-detail {
+  color: $black;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;  
+  line-height: 24px;
+  margin-top: 36px;
+}
+
+.text-detail {
+  color: $gray-siberian;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 8px;
+}
+
+.text-genre {
+  color: $gray-siberian;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;  
+  line-height: 28px;
+}
+
+.img-back-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-back {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  top: 46px;
+}
+
+.text-back {
+  color: $black;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.img-badge {
+  height: 118.57px;
+  position: absolute;
+  right: -10%;
+  top: -10%;
+  transform: rotate(15deg);
+  width: 94.53px;
+}
+
+.section-img {
+  position: relative;
+}
